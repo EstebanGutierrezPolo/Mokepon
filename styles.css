@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#select-pet {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+.title {
+    color: white;
+    width: 310px;
+    height: 50px;
+    font-size: 32px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.subtitle {
+    font-size: 20px;
+}
+.cards, .attack-cards{
+    display: flex;
+    gap: 10px;
+}
+.label-class {
+    width: 180px;
+    background: #0B60B0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.label-class img {
+    width: 80px;
+
+}
+
+input {
+    display: none;
+}
+input:checked +label{
+    background-color: #40A2D8;
+}
+#button-select-pet {
+    background-color: transparent;
+    border: 3px solid #40A2D8;
+    color: white;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+#select-attack {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.attack-button {
+    background-color: #0B60B0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: border-box;
+    border-radius: 10px;
+    width:  100px;
+    color: white;
+}
+#final-message {
+    width: 100px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #40A2D8;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+#button-select-restart {
+    border: none;
+    color: #0B60B0;
+}
+#divAttacks {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.player-class, .enemy-class{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 360px) {
+    .cards, .attack-cards {
+        flex-direction: column;
+    }
+    
+}

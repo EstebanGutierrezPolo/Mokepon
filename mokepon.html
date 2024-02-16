@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mokepon</title>
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+<!-- Section Select a Pet -->
+        <section id="select-pet">
+            <h1 class="title">Mokepon </h1>
+            <h2 class="subtitle">Choose your pet:</h2>
+            <div id="mokepon-cards" class="cards">
+                
+            </div>
+                
+<!-- Button to select a pet -->
+                <button id="button-select-pet">Select</button>
+            </section>
+<!-- Section Select Attack -->
+        <section id="select-attack">
+            <h1 class="title">Mokepon </h1>
+            <h2 class="subtitle">Choose your attack:</h2>
+<!--Button Elections-->
+                <div class="attack-cards">
+                    <!-- Fire -->
+                    <button id="button-select-fire" class="attack-button">Fire🔥</button>
+                    <!-- Water -->
+                    <button id="button-select-water" class="attack-button">Water🌊</button>
+                    <!-- Earth -->
+                    <button id="button-select-earth" class="attack-button">Earth🏞️</button>
+                </div>        
+<!-- Box message (Where you see if you win/lost) -->
+                <div id="final-message">
+                    <p id="result">Good luck!!!</p>
+ <!--Section to restart-->
+                        <section id='section-restart'>
+                            <button id="button-select-restart">Restart</button>
+                        </section>
+                </div>
+<!-- Messages that says which have you attacked with -->
+                <div id="divAttacks">
+                    <div class="player-class">
+                            <p id="pet-lifes">3</p>
+                        <!-- Name of the pet Player -->
+                            <p id="pet-player"></p>
+                        <!-- Movement player -->
+                            <div id="enemy-attack-message"></div>
+                    </div>
+                    <div class="enemy-class">
+                            <p id="enemy-lifes">3</p>
+                        <!-- Name of the pet Enemy -->
+                            <p id="pet-enemy"></p>
+                        <!-- Movement player -->
+                            <div id="player-attack-message"></div> 
+                    </div>
+                </div>
+        </section>   
+        <script src="./js/code.js"></script>
+    </body>
+</html>
