@@ -1,0 +1,1 @@
+Mokepon project is about a simple game, you have 3 options of battle pets, each one has 3 type of attacks such as fire, water and earth. You fight again the pc s ramdon selection. This game was made as a practice to learn about the basis of web development.
